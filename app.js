@@ -10,7 +10,7 @@ var port = process.env.PORT || 3000
 
 
 
-mongoose.connect('mongodb://haha:hahawtf1998@ds125693.mlab.com:25693/projecttimetable');
+mongoose.connect('mongodb:/');
 .then(() =>  console.log('connection to projecttimetable is succesful'))
 .catch((err) => console.error(err));
 
